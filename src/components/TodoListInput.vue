@@ -1,6 +1,5 @@
 <template>
-    <div id="myDIV" class="header">
-        <h2 style="margin:5px">TodoList !!</h2>
+    <div>
         <input type="text" id="myInput" v-model.trim="todoItem" v-on:keyup.enter="addTodoItem()">
         <button class="addBtn" v-on:click="addTodoItem()">추가</button>
     </div>
